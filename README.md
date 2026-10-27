@@ -4,7 +4,7 @@ A simple expense tracker built with HTML, CSS and JavaScript. Add what you spent
 
 **Live demo:** https://YOUR-USERNAME.github.io/expense-tracker/
 
-![Expense Tracker screenshot](Expense-Tracker.png)
+![Expense Tracker screenshot](HeroExpense-Tracker.png)
 
 ## Features
 
