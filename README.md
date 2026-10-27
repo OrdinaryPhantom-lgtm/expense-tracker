@@ -31,4 +31,4 @@ A simple expense tracker built with HTML, CSS and JavaScript. Add what you spent
 
 ## Author
 
-[404Architect](https://github.com/YOUR-USERNAME)
+[404Architect](https://github.com/OrdinaryPhantom-lgtm)
