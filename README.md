@@ -2,8 +2,6 @@
 
 A simple expense tracker built with HTML, CSS and JavaScript. Add what you spent, edit or delete it, and see your running total. Your data is saved in the browser, so it is still there after a refresh.
 
-**Live demo:** https://YOUR-USERNAME.github.io/expense-tracker/
-
 ![Expense Tracker screenshot](HeroExpense-Tracker.png)
 
 ## Features
