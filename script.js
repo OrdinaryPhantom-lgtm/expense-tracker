@@ -3,10 +3,10 @@ const titleInput = document.getElementById("title");
 const amountInput = document.getElementById("amount");
 const list = document.getElementById("expense-list");
 const totalText = document.getElementById("total");
-const submitBtn = document.getElementById("submit-btn"); // NEW
+const submitBtn = document.getElementById("submit-btn"); 
 
 let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
-let editingId = null; // NEW
+let editingId = null; 
 
 function saveExpenses() {
   localStorage.setItem("expenses", JSON.stringify(expenses));
@@ -20,7 +20,6 @@ function showExpenses() {
     const li = document.createElement("li");
     li.textContent = expense.title + " - ₹" + expense.amount;
 
-    // NEW: Edit button
     const editBtn = document.createElement("button");
     editBtn.textContent = "Edit";
     editBtn.className = "edit";
@@ -48,7 +47,6 @@ function deleteExpense(id) {
     return expense.id !== id;
   });
 
-  // NEW: leave edit mode if the edited item was deleted
   if (editingId === id) {
     editingId = null;
     submitBtn.textContent = "Add";
@@ -59,7 +57,6 @@ function deleteExpense(id) {
   showExpenses();
 }
 
-// NEW: whole function
 function startEdit(id) {
   const expense = expenses.find(function (item) {
     return item.id === id;
@@ -71,7 +68,6 @@ function startEdit(id) {
   submitBtn.textContent = "Update";
 }
 
-// CHANGED: if/else inside
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 

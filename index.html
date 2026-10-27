@@ -8,15 +8,23 @@
 </head>
 <body>
   <div class="app">
-    <h1>Expense Tracker</h1>
-    <h2>Total: ₹<span id="total">0</span></h2>
+    <!-- Left: total + form -->
+    <div class="panel">
+      <h1>Expense Tracker</h1>
 
-    <form id="expense-form">
-      <input type="text" id="title" placeholder="What did you buy?" required>
-      <input type="number" id="amount" placeholder="Amount" required>
-      <button type="submit">Add</button>
-    </form>
+      <div class="total-box">
+        <p class="label">Total spent</p>
+        <h2>₹<span id="total">0</span></h2>
+      </div>
 
+      <form id="expense-form">
+        <input type="text" id="title" placeholder="What did you buy?" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <button type="submit" id="submit-btn">Add</button>
+      </form>
+    </div>
+
+    <!-- Right: list -->
     <ul id="expense-list"></ul>
   </div>
 
