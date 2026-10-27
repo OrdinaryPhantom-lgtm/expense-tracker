@@ -2,6 +2,8 @@
 
 A simple expense tracker built with HTML, CSS and JavaScript. Add what you spent, edit or delete it, and see your running total. Your data is saved in the browser, so it is still there after a refresh.
 
+Live site: https://ordinaryphantom-lgtm.github.io/expense-tracker/
+
 ![Expense Tracker screenshot](Expense-Tracker.png)
 
 ## Features
